@@ -31,7 +31,7 @@ This program demonstrates the use of the Intel RealSense Depth Camera to capture
 - Applies color mapping to the depth image for visualization.
 
 ## Example
-![Screenshot of Mapped Terrian](mapped.png)
+![Screenshot of Mapped Terrian](https://raw.githubusercontent.com/D-1shu/terrian-mapping-using-intel-realsense-d435i/main/my-image.png)
 
 ## Credits
 
