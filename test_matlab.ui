@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1874</width>
+    <height>1009</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(46, 52, 54);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>1221</width>
+      <height>841</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(136, 138, 133);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="capture">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>770</y>
+      <width>159</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Capture</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="process">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>810</y>
+      <width>159</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Process</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>850</y>
+      <width>159</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="halt">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>890</y>
+      <width>159</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Halt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>TERRIAN-CLASSIFICATION</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>80</y>
+      <width>571</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1874</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
