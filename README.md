@@ -15,11 +15,11 @@ This program demonstrates the use of the Intel RealSense Depth Camera to capture
 ## Usage
 
 1. Connect the RealSense Depth Camera to the computer.
-2. Run the program using the command `python3 main.py`.
-3. Click on the "Capture" button to capture an image.
-4. Click on the "Process" button to process the captured image.
-5. Click on the "Clear" button to clear the display.
-6. Click on the "Halt" button to stop capturing images and exit the program.
+2. Run the program using the command `python3 terrian_gui.py`.
+3. A gui will open
+4. Click on the "Capture" button to capture an image.
+5. Click on the "Process" button to process the captured image.
+6. Click on the "Clear" button to clear the display.
 
 ## Features
 
