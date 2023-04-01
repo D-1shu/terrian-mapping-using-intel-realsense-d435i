@@ -30,6 +30,9 @@ This program demonstrates the use of the Intel RealSense Depth Camera to capture
 - Displays the depth profile and cluster plot in Matplotlib canvases.
 - Applies color mapping to the depth image for visualization.
 
+## Example
+![Screenshot of Mapped Terrian](mapped.png)
+
 ## Credits
 
 This program is developed by Devanshu Sharma as a part of project at VIT, Vellore.It is based on the RealSense SDK and uses code snippets from various online sources.
